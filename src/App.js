@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import Header from "./Header";
 import Books from "./Books";
-
-import "./App.css";
+import BookPage from "./BookPage";
+import books from "./books.json";
+import ReactModal from "react-modal";
+import "./App.scss";
 
 class App extends Component {
   render() {

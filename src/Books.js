@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import SearchArea from "./SearchArea";
 import books from "./books.json";
 import BookList from "./BookList";
+import BookPagination from "./BookPagination";
 
 class Books extends Component {
   constructor(props) {
     super(props);
-    console.log(books);
+    // TODO: figure out what books will be loaded to initial state
     this.state = {
-      books: { items: [] },
+      books,
       searchField: ""
     };
   }
@@ -25,15 +26,15 @@ class Books extends Component {
   };
 
   handleSubmit = e => {
-    console.log(e);
     e.preventDefault();
-    console.log(this);
+
     this.setState({
       books: books
     });
   };
 
   render() {
+    console.log("ciupaki");
     return (
       <div>
         <SearchArea
@@ -41,6 +42,7 @@ class Books extends Component {
           handleSubmit={this.handleSubmit}
         />
         <BookList books={this.state.books.items} />
+        <BookPagination />
       </div>
     );
   }
