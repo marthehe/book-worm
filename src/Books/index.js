@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import SearchArea from "./SearchArea";
-import books from "./books.json";
-import BookList from "./BookList";
-import BookPagination from "./BookPagination";
+import books from "../books.json";
+import SearchArea from "../SearchArea/";
+import BookList from "../BookList/";
+import BookPagination from "../BookPagination/";
 
 class Books extends Component {
   constructor(props) {
@@ -36,12 +36,14 @@ class Books extends Component {
   render() {
     console.log("ciupaki");
     return (
-      <div>
+      <div className="container">
         <SearchArea
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
         />
+
         <BookList books={this.state.books.items} />
+
         <BookPagination />
       </div>
     );

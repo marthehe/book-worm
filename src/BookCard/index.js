@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import BookPage from "./BookPage";
-import books from "./books.json";
+import books from "../books.json";
+import BookPage from "../BookPage/";
+
 import ReactModal from "react-modal";
 
 const book = books.items[0];
@@ -28,19 +29,28 @@ class BookCard extends Component {
   render() {
     console.log("BookCard props:", this.props);
     return (
-      <div className="book-list__card">
-        <img className="book-list__card-image" src={this.props.image} alt="" />
-        <div className="book-list__card-info">
-          <h2 className="book-list__card-title">{this.props.title}</h2>
-          <h3 className="book-list__card-subtitle">
+      <div className="book-list__card card">
+        <img
+          className="book-list__card-image card-img-top"
+          src={this.props.image}
+          alt=""
+        />
+        <div className="book-list__card-info card-body">
+          <h2 className="book-list__card-title card-title">
+            {this.props.title}
+          </h2>
+          <h3 className="book-list__card-subtitle card-text">
             Author: {this.props.authors}
           </h3>
-          <h3 className="book-list__card-subtitle">
+          <h3 className="book-list__card-subtitle card-text">
             Publisher: {this.props.publisher}
           </h3>
-        </div>
-        <div>
-          <button onClick={this.handleOpenModal}>More Info</button>
+          <button
+            className="book-list__card-button btn btn-primary"
+            onClick={this.handleOpenModal}
+          >
+            More Info
+          </button>
           <ReactModal
             isOpen={this.state.showModal}
             contentLabel="Minimal Modal Example"

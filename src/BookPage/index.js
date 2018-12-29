@@ -21,10 +21,3 @@ const BookPage = props => {
 };
 
 export default BookPage;
-
-// image
-// title
-// authors
-// publisher
-// publishedDate
-// description
