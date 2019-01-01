@@ -12,11 +12,10 @@ class BookPagination extends Component {
   }
 
   handlePageChange(pageNumber) {
+    this.props.handlePagination(pageNumber);
     this.setState({
       activePage: pageNumber
     });
-
-    this.props.handleUpdate(pageNumber);
   }
   render() {
     return (

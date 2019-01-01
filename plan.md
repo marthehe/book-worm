@@ -13,10 +13,10 @@
     - make grid for diffrent screen widths-done
     - add mixins and variables with colors and things that i'm reapiting-done
 
+- add API -done
+
 #To do part 2 :
-- add API 
-- seerching books
-- creat seraching terms
+- if there are no results for seraching term show information 'There are no results for yor seraching 
 - rendering pagination: (remember to explain why you are using react-js-pagination in README) -done
     - check how many books are to display
     - divide number of books to display by displaying number (default number of books currently is 10)

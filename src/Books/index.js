@@ -1,23 +1,26 @@
 import React, { Component } from "react";
-import books from "../books.json";
 import booksAlternative from "../books-alternative.json";
 import SearchArea from "../SearchArea/";
 import BookList from "../BookList/";
 import BookPagination from "../BookPagination/";
 
 class Books extends Component {
-  constructor(props) {
-    super(props);
-    // TODO: figure out what books will be loaded to initial state
-    this.state = {
-      books,
-      searchField: ""
-    };
-  }
+  state = {
+    books: [],
+    searchField: "''"
+  };
 
-  //   searchBook = () => {
-  //     request;
-  //   };
+  componentDidMount() {
+    fetch(
+      `https://www.googleapis.com/books/v1/volumes?q=${this.state.searchField}`,
+      {
+        method: "GET",
+        dataType: "json"
+      }
+    )
+      .then(r => r.json())
+      .then(books => this.setState({ books }));
+  }
 
   handleSearch = e => {
     this.setState({
@@ -28,34 +31,47 @@ class Books extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    this.setState({
-      books: books
-    });
+    fetch(
+      `https://www.googleapis.com/books/v1/volumes?q=${this.state.searchField}`,
+      {
+        method: "GET",
+        dataType: "json"
+      }
+    )
+      .then(r => r.json())
+      .then(books => this.setState({ books }));
   };
 
-  handleUpdate = pageNumber => {
-    if (pageNumber % 2 == 0) {
-      this.setState({
-        books: booksAlternative
-      });
-    } else {
-      this.setState({
-        books: books
-      });
-    }
+  handlePagination = pageNumber => {
+    const RESULTS_NUMBER = 10;
+    const startIndex = pageNumber * RESULTS_NUMBER - 1;
+
+    console.log(startIndex);
+    fetch(
+      `https://www.googleapis.com/books/v1/volumes?startIndex=${startIndex}&q=
+        ${this.state.searchField}`,
+      {
+        method: "GET",
+        dataType: "json"
+      }
+    )
+      .then(r => r.json())
+      .then(books => this.setState({ books }));
   };
 
   render() {
     return (
       <div className="container">
-        <BookPagination handleUpdate={this.handleUpdate} />
+        <BookPagination handlePagination={this.handlePagination} />
 
         <SearchArea
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
         />
 
-        <BookList books={this.state.books.items} />
+        {this.state.books.items && this.state.books.items.length > 0 && (
+          <BookList books={this.state.books.items} />
+        )}
       </div>
     );
   }
