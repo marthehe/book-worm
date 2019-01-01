@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import books from "../books.json";
+import booksAlternative from "../books-alternative.json";
 import SearchArea from "../SearchArea/";
 import BookList from "../BookList/";
 import BookPagination from "../BookPagination/";
@@ -19,7 +20,6 @@ class Books extends Component {
   //   };
 
   handleSearch = e => {
-    console.log(e.target.value);
     this.setState({
       searchField: e.target.value
     });
@@ -33,18 +33,29 @@ class Books extends Component {
     });
   };
 
+  handleUpdate = pageNumber => {
+    if (pageNumber % 2 == 0) {
+      this.setState({
+        books: booksAlternative
+      });
+    } else {
+      this.setState({
+        books: books
+      });
+    }
+  };
+
   render() {
-    console.log("ciupaki");
     return (
       <div className="container">
+        <BookPagination handleUpdate={this.handleUpdate} />
+
         <SearchArea
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
         />
 
         <BookList books={this.state.books.items} />
-
-        <BookPagination />
       </div>
     );
   }

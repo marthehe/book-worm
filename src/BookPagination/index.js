@@ -5,19 +5,20 @@ class BookPagination extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activePage: 2
+      activePage: 1
     };
 
     this.handlePageChange = this.handlePageChange.bind(this);
   }
 
   handlePageChange(pageNumber) {
-    console.log(this);
-    console.log(`active page is ${pageNumber}`);
-    this.setState({ activePage: pageNumber });
+    this.setState({
+      activePage: pageNumber
+    });
+
+    this.props.handleUpdate(pageNumber);
   }
   render() {
-    console.log("paginacja");
     return (
       <div>
         <Pagination
@@ -26,6 +27,8 @@ class BookPagination extends Component {
           totalItemsCount={450}
           pageRangeDisplayed={5}
           onChange={this.handlePageChange}
+          itemClass="page-item"
+          linkClass="page-link"
         />
       </div>
     );
@@ -33,3 +36,9 @@ class BookPagination extends Component {
 }
 
 export default BookPagination;
+
+// page-item -> <li>
+// page-link -> <a>
+{
+  /* <li class="page-item"><a class="page-link" href="#">3</a></li> */
+}

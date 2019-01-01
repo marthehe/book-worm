@@ -1,0 +1,939 @@
+{
+    "kind": "books#volumes",
+    "totalItems": 2111,
+    "items": [
+        {
+            "kind": "books#volume",
+            "id": "_YnVDe28oX4C",
+            "etag": "K/pAhtJKTxk",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/_YnVDe28oX4C",
+            "volumeInfo": {
+             "title": "Mine!",
+             "publisher": "Dogwise Publishing",
+             "publishedDate": "2013",
+             "industryIdentifiers": [
+              {
+               "type": "ISBN_13",
+               "identifier": "9781617810251"
+              },
+              {
+               "type": "ISBN_10",
+               "identifier": "1617810258"
+              }
+             ],
+             "readingModes": {
+              "text": true,
+              "image": false
+             },
+             "printType": "BOOK",
+             "categories": [
+              "Animal behavior therapy"
+             ],
+             "averageRating": 3.0,
+             "ratingsCount": 1,
+             "maturityRating": "NOT_MATURE",
+             "allowAnonLogging": true,
+             "contentVersion": "1.1.1.0.preview.2",
+             "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+             },
+             "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=_YnVDe28oX4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=_YnVDe28oX4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+             },
+             "language": "en",
+             "previewLink": "http://books.google.co.uk/books?id=_YnVDe28oX4C&printsec=frontcover&dq=dogs&hl=&cd=8&source=gbs_api",
+             "infoLink": "https://play.google.com/store/books/details?id=_YnVDe28oX4C&source=gbs_api",
+             "canonicalVolumeLink": "https://market.android.com/details?id=book-_YnVDe28oX4C"
+            },
+            "saleInfo": {
+             "country": "GB",
+             "saleability": "FOR_SALE",
+             "isEbook": true,
+             "listPrice": {
+              "amount": 9.08,
+              "currencyCode": "GBP"
+             },
+             "retailPrice": {
+              "amount": 6.36,
+              "currencyCode": "GBP"
+             },
+             "buyLink": "https://play.google.com/store/books/details?id=_YnVDe28oX4C&rdid=book-_YnVDe28oX4C&rdot=1&source=gbs_api",
+             "offers": [
+              {
+               "finskyOfferType": 1,
+               "listPrice": {
+                "amountInMicros": 9080000.0,
+                "currencyCode": "GBP"
+               },
+               "retailPrice": {
+                "amountInMicros": 6360000.0,
+                "currencyCode": "GBP"
+               },
+               "giftable": true
+              }
+             ]
+            },
+            "accessInfo": {
+             "country": "GB",
+             "viewability": "PARTIAL",
+             "embeddable": true,
+             "publicDomain": false,
+             "textToSpeechPermission": "ALLOWED",
+             "epub": {
+              "isAvailable": true
+             },
+             "pdf": {
+              "isAvailable": false
+             },
+             "webReaderLink": "http://play.google.com/books/reader?id=_YnVDe28oX4C&hl=&printsec=frontcover&source=gbs_api",
+             "accessViewStatus": "SAMPLE",
+             "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+             "textSnippet": "Dogs that become demonic around the food dish, snarly on the sofa or grouchy when chewing on a bone are all too common. Here&#39;s a step-by-step guide to help you recognize, evaluate and treat resource guarding in pet dogs."
+            }
+           },
+           {
+            "kind": "books#volume",
+            "id": "r0vDCwAAQBAJ",
+            "etag": "INaMzwIrgvo",
+            "selfLink": "https://www.googleapis.com/books/v1/volumes/r0vDCwAAQBAJ",
+            "volumeInfo": {
+             "title": "The Dog Book",
+             "subtitle": "Dogs of Historical Distinction",
+             "authors": [
+              "Kathleen Walker-Meikle"
+             ],
+             "publisher": "Bloomsbury Publishing",
+             "publishedDate": "2014-08-10",
+             "description": "The perfect gift for any dog lover, this is the story of man's best friend from the canine gods of Ancient Egypt to the heroic mascots of the Second World War. Over the millennia dogs have been hailed as gods, demons, saints, military heroes, even reigning kings – and all the while have been the keen hunters, loyal guards and beloved pets we know today. They feature in Egyptian myth, classical astronomy, medieval romances and early modern portraiture; they took part in the court-life of Imperial China, in early Hollywood film studios and in intrepid expeditions to the North Pole. Featuring the pampered pets of Queen Victoria and Pablo Picasso, popular medieval dog names, regimental mascots of the Napoleonic Wars and tales of canine loyalty through the ages, this beautifully illustrated volume shows how dogs have for millennia been the beloved companions of peasants and princes alike.",
+             "industryIdentifiers": [
+              {
+               "type": "ISBN_13",
+               "identifier": "9781783660292"
+              },
+              {
+               "type": "ISBN_10",
+               "identifier": "1783660295"
+              }
+             ],
+             "readingModes": {
+              "text": true,
+              "image": true
+             },
+             "pageCount": 144,
+             "printType": "BOOK",
+             "categories": [
+              "Reference"
+             ],
+             "maturityRating": "NOT_MATURE",
+             "allowAnonLogging": false,
+             "contentVersion": "1.5.5.0.preview.3",
+             "panelizationSummary": {
+              "containsEpubBubbles": false,
+              "containsImageBubbles": false
+             },
+             "imageLinks": {
+              "smallThumbnail": "http://books.google.com/books/content?id=r0vDCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+              "thumbnail": "http://books.google.com/books/content?id=r0vDCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+             },
+             "language": "en",
+             "previewLink": "http://books.google.co.uk/books?id=r0vDCwAAQBAJ&printsec=frontcover&dq=dogs&hl=&cd=9&source=gbs_api",
+             "infoLink": "https://play.google.com/store/books/details?id=r0vDCwAAQBAJ&source=gbs_api",
+             "canonicalVolumeLink": "https://market.android.com/details?id=book-r0vDCwAAQBAJ"
+            },
+            "saleInfo": {
+             "country": "GB",
+             "saleability": "FOR_SALE",
+             "isEbook": true,
+             "listPrice": {
+              "amount": 6.71,
+              "currencyCode": "GBP"
+             },
+             "retailPrice": {
+              "amount": 4.5,
+              "currencyCode": "GBP"
+             },
+             "buyLink": "https://play.google.com/store/books/details?id=r0vDCwAAQBAJ&rdid=book-r0vDCwAAQBAJ&rdot=1&source=gbs_api",
+             "offers": [
+              {
+               "finskyOfferType": 1,
+               "listPrice": {
+                "amountInMicros": 6710000.0,
+                "currencyCode": "GBP"
+               },
+               "retailPrice": {
+                "amountInMicros": 4500000.0,
+                "currencyCode": "GBP"
+               },
+               "giftable": true
+              }
+             ]
+            },
+            "accessInfo": {
+             "country": "GB",
+             "viewability": "PARTIAL",
+             "embeddable": true,
+             "publicDomain": false,
+             "textToSpeechPermission": "ALLOWED",
+             "epub": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.uk/books/download/The_Dog_Book-sample-epub.acsm?id=r0vDCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+             },
+             "pdf": {
+              "isAvailable": true,
+              "acsTokenLink": "http://books.google.co.uk/books/download/The_Dog_Book-sample-pdf.acsm?id=r0vDCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+             },
+             "webReaderLink": "http://play.google.com/books/reader?id=r0vDCwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+             "accessViewStatus": "SAMPLE",
+             "quoteSharingAllowed": false
+            },
+            "searchInfo": {
+             "textSnippet": "The perfect gift for any dog lover, this is the story of man&#39;s best friend from the canine gods of Ancient Egypt to the heroic mascots of the Second World War."
+            }
+           },
+     {
+      "kind": "books#volume",
+      "id": "VrXBCQAAQBAJ",
+      "etag": "NQO672jmw2E",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/VrXBCQAAQBAJ",
+      "volumeInfo": {
+       "title": "Straw Dogs",
+       "subtitle": "Thoughts On Humans And Other Animals",
+       "authors": [
+        "John Gray"
+       ],
+       "publisher": "Granta Books",
+       "publishedDate": "2015-07-02",
+       "description": "Straw Dogs is a radical work of philosophy that sets out to challenge our most cherished assumptions about what it means to be human. From Plato to Christianity, from the Enlightenment to Nietzsche and Marx, the Western tradition has been based on arrogant and erroneous beliefs about human beings and their place in the world. Philosophies such as liberalism and Marxism enthrone humankind as a species whose destiny is to transcend natural limits and conquer the Earth. Even in the present day, despite Darwin's discoveries, nearly all schools of thought take as their starting point the belief that humans are radically different from other animals. In Straw Dogs, John Gray argues that this humanist belief in human difference is an illusion and explores how the world and human life look once humanism has been finally abandoned.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781783782611"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1783782617"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 246,
+       "printType": "BOOK",
+       "categories": [
+        "Philosophy"
+       ],
+       "averageRating": 3.5,
+       "ratingsCount": 7,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.3.2.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=VrXBCQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=VrXBCQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.uk/books?id=VrXBCQAAQBAJ&printsec=frontcover&dq=dogs&hl=&cd=2&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=VrXBCQAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-VrXBCQAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "GB",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 9.99,
+        "currencyCode": "GBP"
+       },
+       "retailPrice": {
+        "amount": 6.99,
+        "currencyCode": "GBP"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=VrXBCQAAQBAJ&rdid=book-VrXBCQAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 9990000.0,
+          "currencyCode": "GBP"
+         },
+         "retailPrice": {
+          "amountInMicros": 6990000.0,
+          "currencyCode": "GBP"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "GB",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/Straw_Dogs-sample-epub.acsm?id=VrXBCQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/Straw_Dogs-sample-pdf.acsm?id=VrXBCQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=VrXBCQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "In Straw Dogs, John Gray argues that this humanist belief in human difference is an illusion and explores how the world and human life look once humanism has been finally abandoned."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "jZlbDwAAQBAJ",
+      "etag": "7D18h/53ptg",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jZlbDwAAQBAJ",
+      "volumeInfo": {
+       "title": "Old Toffer's Book of Consequential Dogs",
+       "authors": [
+        "Christopher Reid"
+       ],
+       "publisher": "Faber & Faber",
+       "publishedDate": "2018-10-02",
+       "description": "I've rounded up a rowdy assembly Of my own Consequential Dogs As counterparts to Eliot's mogs. Mine are a rough and ready bunch: You wouldn't take them out to lunch . . . But if they strike you as friendly, funny, Full of bounce and fond of a romp, Forgetful of poetic pomp, I trust you'll take them as you find them And, at the very least, not mind them. T. S. Eliot's best-selling collection of practical cat poems has been one of the most successful poetry collections in the world. For the first time in company history a companion volume will be published. Originally conceived by Eliot himself, Old Toffer's Book of Consequential Dog poems are a witty, varied and exquisitely compiled as Eliot's cats.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9780571346202"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "0571346200"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 64,
+       "printType": "BOOK",
+       "categories": [
+        "Poetry"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "1.2.2.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=jZlbDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=jZlbDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.uk/books?id=jZlbDwAAQBAJ&printsec=frontcover&dq=dogs&hl=&cd=3&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=jZlbDwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-jZlbDwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "GB",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 7.99,
+        "currencyCode": "GBP"
+       },
+       "retailPrice": {
+        "amount": 5.03,
+        "currencyCode": "GBP"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=jZlbDwAAQBAJ&rdid=book-jZlbDwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 7990000.0,
+          "currencyCode": "GBP"
+         },
+         "retailPrice": {
+          "amountInMicros": 5030000.0,
+          "currencyCode": "GBP"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "GB",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/Old_Toffer_s_Book_of_Consequential_Dogs-sample-epub.acsm?id=jZlbDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/Old_Toffer_s_Book_of_Consequential_Dogs-sample-pdf.acsm?id=jZlbDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=jZlbDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "I&#39;ve rounded up a rowdy assembly Of my own Consequential Dogs As counterparts to Eliot&#39;s mogs."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "PLcNhqWr7VcC",
+      "etag": "7HfbE5sacmo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/PLcNhqWr7VcC",
+      "volumeInfo": {
+       "title": "Dinner for Dogs",
+       "authors": [
+        "Henrietta Morrison"
+       ],
+       "publisher": "Random House",
+       "publishedDate": "2012-09-11",
+       "description": "Everyone wants to give their dog the best chance in life. The author's border terrier, Lily, was a fussy eater as a puppy, plagued by earache and skin problems. As dog lover Henrietta Morrison began cooking for her, Lily's problems disappeared. A passionate believer that we should feed our dogs the same quality of food as ourselves, Henrietta serves up in this attractive book of 50 tasty and easy recipes for dog food, developed with the help of a vet. Here are ideas for making your own biscuits, kibble and quick treats perfect for long walks, as well as nourishing everyday recipes including recovery recipes for poorly dogs and dishes perfect for young puppies. Alongside the recipes come tips and advice - from how to read a pet food label to the best herbs to include in a homemade meal for your dog. This charming book is a delicious treat for dog lovers everywhere.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781448175239"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1448175232"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 128,
+       "printType": "BOOK",
+       "categories": [
+        "Pets"
+       ],
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "3.7.7.0.preview.2",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=PLcNhqWr7VcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=PLcNhqWr7VcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.uk/books?id=PLcNhqWr7VcC&printsec=frontcover&dq=dogs&hl=&cd=4&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=PLcNhqWr7VcC&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-PLcNhqWr7VcC"
+      },
+      "saleInfo": {
+       "country": "GB",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 6.99,
+        "currencyCode": "GBP"
+       },
+       "retailPrice": {
+        "amount": 6.99,
+        "currencyCode": "GBP"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=PLcNhqWr7VcC&rdid=book-PLcNhqWr7VcC&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 6990000.0,
+          "currencyCode": "GBP"
+         },
+         "retailPrice": {
+          "amountInMicros": 6990000.0,
+          "currencyCode": "GBP"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "GB",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/Dinner_for_Dogs-sample-epub.acsm?id=PLcNhqWr7VcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=PLcNhqWr7VcC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Alongside the recipes come tips and advice - from how to read a pet food label to the best herbs to include in a homemade meal for your dog. This charming book is a delicious treat for dog lovers everywhere."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "S-uFCgAAQBAJ",
+      "etag": "wgjtEVpiEs8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/S-uFCgAAQBAJ",
+      "volumeInfo": {
+       "title": "The Plague Dogs",
+       "authors": [
+        "Richard Adams"
+       ],
+       "publisher": "Oneworld Publications",
+       "publishedDate": "2015-10-19",
+       "description": "Two dogs escape from an experimental research lab in the Lake District, where they have been horribly tortured and mistreated in the name if science. As they run for their lives on the hard fells they attempt to survive wild and free. But the hunt in on...",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781780747927"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1780747926"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 416,
+       "printType": "BOOK",
+       "categories": [
+        "Juvenile Fiction"
+       ],
+       "averageRating": 3.5,
+       "ratingsCount": 19,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.5.6.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=S-uFCgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=S-uFCgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.uk/books?id=S-uFCgAAQBAJ&printsec=frontcover&dq=dogs&hl=&cd=5&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=S-uFCgAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-S-uFCgAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "GB",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 7.19,
+        "currencyCode": "GBP"
+       },
+       "retailPrice": {
+        "amount": 4.53,
+        "currencyCode": "GBP"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=S-uFCgAAQBAJ&rdid=book-S-uFCgAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 7190000.0,
+          "currencyCode": "GBP"
+         },
+         "retailPrice": {
+          "amountInMicros": 4530000.0,
+          "currencyCode": "GBP"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "GB",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/The_Plague_Dogs-sample-epub.acsm?id=S-uFCgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/The_Plague_Dogs-sample-pdf.acsm?id=S-uFCgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=S-uFCgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Two dogs escape from an experimental research lab in the Lake District, where they have been horribly tortured and mistreated in the name if science."
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "420SBQAAQBAJ",
+      "etag": "ODMxbf0w/Tk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/420SBQAAQBAJ",
+      "volumeInfo": {
+       "title": "It's Raining Cats and Dogs",
+       "subtitle": "An Autism Spectrum Guide to the Confusing World of Idioms, Metaphors, and Everyday Expressions",
+       "authors": [
+        "Michael Barton"
+       ],
+       "publisher": "Jessica Kingsley Publishers",
+       "publishedDate": "2012",
+       "description": "Offers insight into an autistic person's mind through classic figures of speech that contain confusing or contradictory wording, drawings that show what he believes the expressions mean, and their actual meanings.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781849052832"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1849052832"
+        }
+       ],
+       "readingModes": {
+        "text": false,
+        "image": true
+       },
+       "pageCount": 95,
+       "printType": "BOOK",
+       "categories": [
+        "Psychology"
+       ],
+       "averageRating": 3.0,
+       "ratingsCount": 1,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "preview-1.0.0",
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=420SBQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=420SBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.uk/books?id=420SBQAAQBAJ&printsec=frontcover&dq=dogs&hl=&cd=7&source=gbs_api",
+       "infoLink": "http://books.google.co.uk/books?id=420SBQAAQBAJ&dq=dogs&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/It_s_Raining_Cats_and_Dogs.html?hl=&id=420SBQAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "GB",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "GB",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED",
+       "epub": {
+        "isAvailable": false
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=420SBQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Offers insight into an autistic person&#39;s mind through classic figures of speech that contain confusing or contradictory wording, drawings that show what he believes the expressions mean, and their actual meanings."
+      }
+     },
+     
+     {
+        "kind": "books#volume",
+        "id": "rc1XAQAAQBAJ",
+        "etag": "QSK0ZNL43X8",
+        "selfLink": "https://www.googleapis.com/books/v1/volumes/rc1XAQAAQBAJ",
+        "volumeInfo": {
+         "title": "Underwater Dogs (Kids Edition)",
+         "authors": [
+          "Seth Casteel"
+         ],
+         "publisher": "Hachette UK",
+         "publishedDate": "2013-09-24",
+         "description": "Dive right into this kids edition of Seth Casteel's amazing Underwater Dogs. With colorful photographs of the cutest canines chasing after their favourite toys and hilarious, joyful rhymes, this is a special treat for kids and adults alike.",
+         "industryIdentifiers": [
+          {
+           "type": "ISBN_13",
+           "identifier": "9781472212535"
+          },
+          {
+           "type": "ISBN_10",
+           "identifier": "1472212533"
+          }
+         ],
+         "readingModes": {
+          "text": true,
+          "image": true
+         },
+         "pageCount": 40,
+         "printType": "BOOK",
+         "categories": [
+          "Humor"
+         ],
+         "averageRating": 4.5,
+         "ratingsCount": 6,
+         "maturityRating": "NOT_MATURE",
+         "allowAnonLogging": true,
+         "contentVersion": "1.1.2.0.preview.3",
+         "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+         },
+         "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=rc1XAQAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=rc1XAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+         },
+         "language": "en",
+         "previewLink": "http://books.google.co.uk/books?id=rc1XAQAAQBAJ&printsec=frontcover&dq=dogs&hl=&cd=1&source=gbs_api",
+         "infoLink": "https://play.google.com/store/books/details?id=rc1XAQAAQBAJ&source=gbs_api",
+         "canonicalVolumeLink": "https://market.android.com/details?id=book-rc1XAQAAQBAJ"
+        },
+        "saleInfo": {
+         "country": "GB",
+         "saleability": "FOR_SALE",
+         "isEbook": true,
+         "listPrice": {
+          "amount": 3.99,
+          "currencyCode": "GBP"
+         },
+         "retailPrice": {
+          "amount": 3.99,
+          "currencyCode": "GBP"
+         },
+         "buyLink": "https://play.google.com/store/books/details?id=rc1XAQAAQBAJ&rdid=book-rc1XAQAAQBAJ&rdot=1&source=gbs_api",
+         "offers": [
+          {
+           "finskyOfferType": 1,
+           "listPrice": {
+            "amountInMicros": 3990000.0,
+            "currencyCode": "GBP"
+           },
+           "retailPrice": {
+            "amountInMicros": 3990000.0,
+            "currencyCode": "GBP"
+           },
+           "giftable": true
+          }
+         ]
+        },
+        "accessInfo": {
+         "country": "GB",
+         "viewability": "PARTIAL",
+         "embeddable": true,
+         "publicDomain": false,
+         "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+         "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Underwater_Dogs_Kids_Edition-sample-epub.acsm?id=rc1XAQAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.co.uk/books/download/Underwater_Dogs_Kids_Edition-sample-pdf.acsm?id=rc1XAQAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+         },
+         "webReaderLink": "http://play.google.com/books/reader?id=rc1XAQAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+         "accessViewStatus": "SAMPLE",
+         "quoteSharingAllowed": false
+        },
+        "searchInfo": {
+         "textSnippet": "Dive right into this kids edition of Seth Casteel&#39;s amazing Underwater Dogs. With colorful photographs of the cutest canines chasing after their favourite toys and hilarious, joyful rhymes, this is a special treat for kids and adults alike."
+        }
+       },
+     {
+      "kind": "books#volume",
+      "id": "YhdNDwAAQBAJ",
+      "etag": "K9Rev3MYGSo",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/YhdNDwAAQBAJ",
+      "volumeInfo": {
+       "title": "100 Dogs",
+       "authors": [
+        "Michael Whaite"
+       ],
+       "publisher": "Penguin UK",
+       "publishedDate": "2018-08-09",
+       "description": "Small dog, tall dog, playing with a ball dog, big dog, dig dog burying a bone . . . Can there really be 100 dogs doing 100 doggy things packed into the pages of this picture book? Follow the bouncy rhyme as it weaves its way through an array of hilarious hounds (from petted pugs to silly sausage dogs) and find out . . . This silly celebration of dogs is bursting with funny details to spot and crazy, characterful dogs to fall in love with - a bark-aloud book to return time and again.",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9780241351765"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "0241351766"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": true
+       },
+       "pageCount": 32,
+       "printType": "BOOK",
+       "categories": [
+        "Juvenile Fiction"
+       ],
+       "averageRating": 3.0,
+       "ratingsCount": 2,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": false,
+       "contentVersion": "1.2.2.0.preview.3",
+       "panelizationSummary": {
+        "containsEpubBubbles": false,
+        "containsImageBubbles": false
+       },
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=YhdNDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=YhdNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.uk/books?id=YhdNDwAAQBAJ&printsec=frontcover&dq=dogs&hl=&cd=10&source=gbs_api",
+       "infoLink": "https://play.google.com/store/books/details?id=YhdNDwAAQBAJ&source=gbs_api",
+       "canonicalVolumeLink": "https://market.android.com/details?id=book-YhdNDwAAQBAJ"
+      },
+      "saleInfo": {
+       "country": "GB",
+       "saleability": "FOR_SALE",
+       "isEbook": true,
+       "listPrice": {
+        "amount": 3.99,
+        "currencyCode": "GBP"
+       },
+       "retailPrice": {
+        "amount": 3.99,
+        "currencyCode": "GBP"
+       },
+       "buyLink": "https://play.google.com/store/books/details?id=YhdNDwAAQBAJ&rdid=book-YhdNDwAAQBAJ&rdot=1&source=gbs_api",
+       "offers": [
+        {
+         "finskyOfferType": 1,
+         "listPrice": {
+          "amountInMicros": 3990000.0,
+          "currencyCode": "GBP"
+         },
+         "retailPrice": {
+          "amountInMicros": 3990000.0,
+          "currencyCode": "GBP"
+         },
+         "giftable": true
+        }
+       ]
+      },
+      "accessInfo": {
+       "country": "GB",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/100_Dogs-sample-epub.acsm?id=YhdNDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/100_Dogs-sample-pdf.acsm?id=YhdNDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=YhdNDwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Small dog, tall dog, playing with a ball dog, big dog, dig dog burying a bone . . . Can there really be 100 dogs doing 100 doggy things packed into the pages of this picture book?"
+      }
+     },
+     {
+      "kind": "books#volume",
+      "id": "zM9RSqzjRKcC",
+      "etag": "5Ut0ZMxAGQs",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/zM9RSqzjRKcC",
+      "volumeInfo": {
+       "title": "Mad Dogs",
+       "authors": [
+        "Robert Muchamore"
+       ],
+       "publisher": "Simon and Schuster",
+       "publishedDate": "2014-04-01",
+       "description": "Gang warfare gets gruesome in the eighth book of the CHERUB series, which Rick Riordan says has “plenty of action.” CHERUB agents are highly trained, extremely talented—and all under the age of seventeen. For official purposes, these agents do not exist. They are sent out on missions to spy on terrorists, hack into crucial documents, and gather intel on global threats—all without gadgets or weapons. It is an extremely dangerous job, but these agents have one crucial advantage: Adults never suspect that teens are spying on them. In Mad Dogs, the British underworld is controlled by gangs. When two of them start a turf war, violence explodes onto the streets. The police need information fast, and James has the contacts to infiltrate the most dangerous gang of all…",
+       "industryIdentifiers": [
+        {
+         "type": "ISBN_13",
+         "identifier": "9781442499553"
+        },
+        {
+         "type": "ISBN_10",
+         "identifier": "1442499559"
+        }
+       ],
+       "readingModes": {
+        "text": true,
+        "image": false
+       },
+       "pageCount": 416,
+       "printType": "BOOK",
+       "categories": [
+        "Juvenile Fiction"
+       ],
+       "averageRating": 5.0,
+       "ratingsCount": 4,
+       "maturityRating": "NOT_MATURE",
+       "allowAnonLogging": true,
+       "contentVersion": "1.9.9.0.preview.2",
+       "imageLinks": {
+        "smallThumbnail": "http://books.google.com/books/content?id=zM9RSqzjRKcC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+        "thumbnail": "http://books.google.com/books/content?id=zM9RSqzjRKcC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+       },
+       "language": "en",
+       "previewLink": "http://books.google.co.uk/books?id=zM9RSqzjRKcC&printsec=frontcover&dq=dogs&hl=&cd=6&source=gbs_api",
+       "infoLink": "http://books.google.co.uk/books?id=zM9RSqzjRKcC&dq=dogs&hl=&source=gbs_api",
+       "canonicalVolumeLink": "https://books.google.com/books/about/Mad_Dogs.html?hl=&id=zM9RSqzjRKcC"
+      },
+      "saleInfo": {
+       "country": "GB",
+       "saleability": "NOT_FOR_SALE",
+       "isEbook": false
+      },
+      "accessInfo": {
+       "country": "GB",
+       "viewability": "PARTIAL",
+       "embeddable": true,
+       "publicDomain": false,
+       "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+       "epub": {
+        "isAvailable": true,
+        "acsTokenLink": "http://books.google.co.uk/books/download/Mad_Dogs-sample-epub.acsm?id=zM9RSqzjRKcC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+       },
+       "pdf": {
+        "isAvailable": false
+       },
+       "webReaderLink": "http://play.google.com/books/reader?id=zM9RSqzjRKcC&hl=&printsec=frontcover&source=gbs_api",
+       "accessViewStatus": "SAMPLE",
+       "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+       "textSnippet": "Gang warfare gets gruesome in the eighth book of the CHERUB series, which Rick Riordan says has “plenty of action.” CHERUB agents are highly trained, extremely talented—and all under the age of seventeen."
+      }
+     }
+    ]
+   }

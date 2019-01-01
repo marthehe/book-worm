@@ -27,7 +27,6 @@ class BookCard extends Component {
   }
   // I want to open modal with info from each book that I click on
   render() {
-    console.log("BookCard props:", this.props);
     return (
       <div className="book-list__card card">
         <img
@@ -53,9 +52,8 @@ class BookCard extends Component {
           </button>
           <ReactModal
             isOpen={this.state.showModal}
-            contentLabel="Minimal Modal Example"
+            contentLabel={this.props.title}
           >
-            <button onClick={this.handleCloseModal}>Close</button>
             <BookPage
               image={this.props.image}
               title={this.props.title}
@@ -63,6 +61,7 @@ class BookCard extends Component {
               publisher={this.props.publisher}
               publishedDate={this.props.publishedDate}
               description={this.props.description}
+              handleCloseModal={this.handleCloseModal}
             />
           </ReactModal>
         </div>

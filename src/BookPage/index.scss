@@ -1,26 +1,15 @@
 .book-page {
-  display: grid;
-  padding: 1rem;
-  margin: 20px 0 50px 0;
-  grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 2rem;
-
   &__image {
     width: 100%;
-    height: auto;
   }
 
   &__info {
-    text-align: left;
-    height: 325px;
-  }
-
-  &__subtitle {
-    padding: 20px 0 20px 0;
+    font-size: 22px;
+    margin-bottom: 50px;
   }
 
   &__description {
-    height: 325px;
-    font-size: 25px;
+    text-align: justify;
+    font-size: 18px;
   }
 }
