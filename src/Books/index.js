@@ -62,8 +62,6 @@ class Books extends Component {
   render() {
     return (
       <div className="container">
-        <BookPagination handlePagination={this.handlePagination} />
-
         <SearchArea
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
@@ -72,6 +70,8 @@ class Books extends Component {
         {this.state.books.items && this.state.books.items.length > 0 && (
           <BookList books={this.state.books.items} />
         )}
+
+        <BookPagination handlePagination={this.handlePagination} />
       </div>
     );
   }

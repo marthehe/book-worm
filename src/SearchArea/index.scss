@@ -1,12 +1,8 @@
 .search-area {
   &__form {
-    padding: 20px 0px 20px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  &__form-input {
-    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
   }
 }

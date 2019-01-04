@@ -35,9 +35,3 @@ class BookPagination extends Component {
 }
 
 export default BookPagination;
-
-// page-item -> <li>
-// page-link -> <a>
-{
-  /* <li class="page-item"><a class="page-link" href="#">3</a></li> */
-}

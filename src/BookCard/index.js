@@ -34,18 +34,18 @@ class BookCard extends Component {
           src={this.props.image}
           alt=""
         />
-        <div className="book-list__card-info card-body">
+        <div className="book-list__card-info card-body d-flex flex-column">
           <h2 className="book-list__card-title card-title">
             {this.props.title}
           </h2>
-          <h3 className="book-list__card-subtitle card-text">
+          <p className="book-list__card-subtitle card-text">
             Author: {this.props.authors}
-          </h3>
-          <h3 className="book-list__card-subtitle card-text">
+          </p>
+          <p className="book-list__card-subtitle card-text">
             Publisher: {this.props.publisher}
-          </h3>
+          </p>
           <button
-            className="book-list__card-button btn btn-primary"
+            className="book-list__card-button btn btn-primary mt-auto"
             onClick={this.handleOpenModal}
           >
             More Info
@@ -53,6 +53,7 @@ class BookCard extends Component {
           <ReactModal
             isOpen={this.state.showModal}
             contentLabel={this.props.title}
+            overlayClassName="book-overlay"
           >
             <BookPage
               image={this.props.image}

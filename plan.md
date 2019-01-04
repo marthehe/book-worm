@@ -14,14 +14,24 @@
     - add mixins and variables with colors and things that i'm reapiting-done
 
 - add API -done
-
-#To do part 2 :
-- if there are no results for seraching term show information 'There are no results for yor seraching 
 - rendering pagination: (remember to explain why you are using react-js-pagination in README) -done
     - check how many books are to display
     - divide number of books to display by displaying number (default number of books currently is 10)
     - change number of books to display from default 10 to 18
     - used fixed api link to do that
+
+#To do styling:
+- add card-deck(bootstrap class) before col
+- fix padding in input- DONE
+- fix colors in button
+- fix the height of the book-cards
+- move the paginantion to bottom - AT THE END
+
+
+#To do part 2 :
+- change the number of book cards displying to 9 or 12
+- if there are no results for seraching term show information 'There are no results for yor seraching 
+
 
 
 #To do tets part:
