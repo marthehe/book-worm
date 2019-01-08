@@ -4,18 +4,23 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.2.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "jest-enzyme": "^7.0.1",
     "node-sass": "^4.11.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-js-pagination": "^3.0.2",
     "react-modal": "^3.8.1",
     "react-scripts": "2.1.1",
+    "react-test-renderer": "^16.7.0",
     "reactstrap": "^6.5.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "test:watch": "react-scripts test --watch",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
