@@ -23,8 +23,8 @@
 #To do styling:
 - add card-deck(bootstrap class) before col
 - fix padding in input- DONE
-- fix colors in button
-- fix the height of the book-cards
+- fix colors in button- done
+- fix the height of the book-cards- done
 - move the paginantion to bottom - AT THE END
 
 

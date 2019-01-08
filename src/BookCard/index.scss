@@ -1,7 +1,7 @@
 .book-list {
   &__card {
     overflow: hidden;
-    margin-bottom: 20px;
+    height: 100%;
   }
 
   &__card-image {
@@ -11,12 +11,12 @@
   }
 
   &__card-title {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     font-weight: 400;
   }
 
   &__card-subtitle {
-    font-size: 1em;
+    font-size: 1rem;
     font-weight: 300;
     color: #000;
     padding: 3px 0 3px 0;
