@@ -11,6 +11,10 @@ class Books extends Component {
   };
 
   componentDidMount() {
+    this.fetchBooks();
+  }
+
+  fetchBooks = () => {
     fetch(
       `https://www.googleapis.com/books/v1/volumes?q=${this.state.searchField}`,
       {
@@ -20,7 +24,7 @@ class Books extends Component {
     )
       .then(r => r.json())
       .then(books => this.updateBooksState(books));
-  }
+  };
 
   updateBooksState = books => {
     this.setState({ books });

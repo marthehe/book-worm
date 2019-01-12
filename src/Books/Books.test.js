@@ -1,9 +1,7 @@
 import React from "react";
-import { shallow } from "enzyme";
-import { mount } from "enzyme";
+import { shallow, mount } from "enzyme";
 import Books from "./index.js";
 import SearchArea from "./index.js";
-import { wrap } from "module";
 
 describe("initialState", () => {
   test("books list is empty", () => {
@@ -39,24 +37,11 @@ describe("state", () => {
 });
 
 describe("state", () => {
-  it("invokes `componentDidMount` when mounted", () => {
-    const spy = jest.spyOn(Books.prototype, "componentDidMount");
+  it("calls `fetchBooks` when mounted", () => {
     const wrapper = shallow(<Books />);
-    wrapper.instance().componentDidMount();
-    expect(spy).toHaveBeenCalled();
+    const instance = wrapper.instance();
+    jest.spyOn(instance, "fetchBooks");
+    instance.componentDidMount();
+    expect(instance.fetchBooks).toHaveBeenCalled();
   });
 });
-
-// it("invokes `componentDidMount` when mounted", () => {
-//   jest.spyOn(Books.prototype, "componentDidMount");
-//   shallow(<Books />);
-//   expect(Books.prototype.componentDidMount).toHaveBeenCalled();
-//   Books.prototype.componentDidMount.mockRestore();
-// });
-
-// it("ComponentDidMount", () => {
-//   const wrapper = shallow(<Books />);
-//   const instance = wrapper.instance();
-//   instance.componentDidMount();
-//   expect(fetch.calledOnce).toBe(1);
-// });
