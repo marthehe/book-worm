@@ -5,7 +5,6 @@ const BookList = props => {
   return (
     <div className="book-list row">
       {props.books.map(book => {
-        console.log(book.volumeInfo.imageLinks);
         return (
           <div className="col-12 col-md-6 col-xl-4 mb-4">
             <BookCard

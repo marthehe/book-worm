@@ -1,11 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import books from "../books.json";
 import BookPage from "../BookPage/";
 
 import ReactModal from "react-modal";
-
-const book = books.items[0];
 
 class BookCard extends Component {
   constructor() {

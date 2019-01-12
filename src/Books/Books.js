@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import booksAlternative from "../books-alternative.json";
+
 import SearchArea from "../SearchArea/";
 import BookList from "../BookList/";
 import BookPagination from "../BookPagination/";
