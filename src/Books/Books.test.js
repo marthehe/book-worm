@@ -36,7 +36,7 @@ describe("state", () => {
   });
 });
 
-describe("state", () => {
+describe("componentDidMount", () => {
   it("calls `fetchBooks` when mounted", () => {
     const wrapper = shallow(<Books />);
     const instance = wrapper.instance();

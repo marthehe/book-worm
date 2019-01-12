@@ -29,20 +29,14 @@
 
 
 #To do part 2 :
-- change the number of book cards displying to 9 or 12
 - if there are no results for seraching term show information 'There are no results for yor seraching 
 
 
 
 #To do tets part:
-- testing with Jest
-- test component from form//input - SearchArea:
-    - snapshot?
-    - testing props
-    - proptypes for value?
-    - test events - onChange?
-- or test utility?
-- test API?
+test componentDidMount:
+- invoke componentDidMount
+- check the fetch method- how to use mock???
 
 
 

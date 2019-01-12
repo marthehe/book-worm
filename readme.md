@@ -1,8 +1,8 @@
 # Book-Worm App
 An apllication created with *create-react-app* and Google's Books API that allows you to:
 - Type in a query and display a list of books matching it.
-- Check each book's information (title, book's author and picture of the book).
-- Navigate from each book to modal with addidtional infomation about the book(publishing company, publication date, description).
+- Check each book's information (title, the book's author and picture of the book).
+- Navigate from each book to modal with additional information about the book(publishing company, publication date, description).
 
 The application is composed of the following components:
 *  App - the primary (root) component for managing all Book-Worm and underlying component state.
@@ -12,15 +12,22 @@ The application is composed of the following components:
     * BookList - displays list of books
     * BookCard - displays information about each book and picture; navigates to more information about the book.
     * BookPage - displays more information about the book in modal
-    * BookPagination - navigates to next page with more book items
+    * BookPagination - navigates to the next page with more book items
 
 ### Build With:
 - Visual Studio Code
 - create-react-app
 - React
 - Google Books API
-- Bootstrap
+- Bootstrap 4 with CSS Flexible Box Layout Module
 - Sass
-- Flexbox
-- Jest - for testing application features
+- Jest & Enzyme - for testing application features
+
+### Comments:
+In my task wanted to created book app that could showcase my approach for creating React app. My inspiration was a video course "React for beginners" from LevelUpTutorials.
+
+I've used Bootstrap for styling as it's a nice framework that allowed me to create 
+easily and quickly simple responsive design for this app. I utilized Bootstrap along with Sass. In real world application I would use Sass for easier management of repetitions with mixins. For naming CSS classes I used BEM methodology so CSS will be more understandable and clear.
+
+Testing subject is quite new to me. I went along with the udemy course React Testing with Jest and Enzyme. First I tested if my components are rendering. Then I checked initial statates and if they are updating. To check functions in copmonentDidMount I used spyOn. In production I would use mock mechanism.
 
