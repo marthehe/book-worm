@@ -11,7 +11,7 @@ The application is composed of the following components:
     * SearchArea - used to input query and submit the form
     * BookList - displays list of books
     * BookCard - displays information about each book and picture; navigates to more information about the book.
-    * BookPage - displays more information about the book in modal
+    * BookModal - displays more information about the book in modal
     * BookPagination - navigates to the next page with more book items
 
 ### Build With:
@@ -28,6 +28,8 @@ In my task wanted to created book app that could showcase my approach for creati
 
 I've used Bootstrap for styling as it's a nice framework that allowed me to create 
 easily and quickly simple responsive design for this app. I utilized Bootstrap along with Sass. In real world application I would use Sass for easier management of repetitions with mixins. For naming CSS classes I used BEM methodology so CSS will be more understandable and clear.
+
+To display more information about the book I implement react-modal to create a modal that would contain those extra information. I used react-modal instead react-router because it was easy and quick to implement. With not too much of quantity of content it looks neat and it's easy to navigate back.
 
 Testing subject is quite new to me. I went along with the udemy course React Testing with Jest and Enzyme. First I tested if my components are rendering. Then I checked initial statates and if they are updating. To check functions in copmonentDidMount I used spyOn. In production I would use mock mechanism.
 

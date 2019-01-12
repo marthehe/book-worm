@@ -21,8 +21,3 @@ test("renders renders Books component", () => {
   const booksComponent = wrapper.find(Books);
   expect(booksComponent).toHaveLength(1);
 });
-
-// import Input from 'input-component-path'
-
-// wrapper.find(Input)
-// wrapper

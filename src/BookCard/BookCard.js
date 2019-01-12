@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import BookPage from "../BookPage/";
+import BookModal from "../BookModal/";
 
 import ReactModal from "react-modal";
 
@@ -10,19 +10,16 @@ class BookCard extends Component {
     this.state = {
       showModal: false
     };
-
-    this.handleOpenModal = this.handleOpenModal.bind(this);
-    this.handleCloseModal = this.handleCloseModal.bind(this);
   }
 
-  handleOpenModal() {
+  handleOpenModal = () => {
     this.setState({ showModal: true });
-  }
+  };
 
-  handleCloseModal() {
+  handleCloseModal = () => {
     this.setState({ showModal: false });
-  }
-  // I want to open modal with info from each book that I click on
+  };
+
   render() {
     return (
       <div className="book-list__card card">
@@ -44,9 +41,6 @@ class BookCard extends Component {
               {this.props.authors.join(", ")}
             </p>
           )}{" "}
-          {/* <p className="book-list__card-subtitle card-text">
-            Publisher: {this.props.publisher}
-          </p> */}
           <button
             data-test="card-button"
             className="book-list__card-button btn btn-primary mt-auto"
@@ -59,7 +53,7 @@ class BookCard extends Component {
             contentLabel={this.props.title}
             overlayClassName="book-overlay"
           >
-            <BookPage
+            <BookModal
               image={this.props.image}
               title={this.props.title}
               authors={this.props.authors}

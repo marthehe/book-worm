@@ -38,5 +38,18 @@ test componentDidMount:
 - invoke componentDidMount
 - check the fetch method- how to use mock???
 
+1. Remove books.json - done
+2. Check typos - done in readme file
+3. Remove unnecessary comments `App.test.js` - done
+4. `App.js` use functional component? - done
+5. `SearchArea` use ES6 implicit return
+6. `Books.js` instead of duplicating `fetch()` in 2 places use fetchBooks() method in handleSubmit() - done
+7. `BooksPagination` use class fields like in `Books.js` for defining state instead of using `constructor` - done
+8. Rename `BookPage` to `BookModal`- done
+9. Provide description why modal was used instead of react-router
+10. `BooksList` use ES6 implicit return - done
+11. `BookCard` use class fields like in `Books.js` for defining state instead of using `constructor` -done
+12. `BookCard` remove `.bind` from constructor and use arrow function as a method instead. Just like in `Books.js` - done
+13. Remove comments from render() in `BookCard.js` - done
 
 
