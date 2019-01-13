@@ -4,19 +4,24 @@ import SearchArea from "../SearchArea/";
 import BookList from "../BookList/";
 import BookPagination from "../BookPagination/";
 
+const RESULTS_NUMBER = 12;
+
 class Books extends Component {
   state = {
     books: [],
-    searchField: "''"
+    searchField: "''",
+    activePage: 1
   };
 
   componentDidMount() {
     this.fetchBooks();
   }
 
-  fetchBooks = () => {
+  fetchBooks = (startIndex = 0) => {
     fetch(
-      `https://www.googleapis.com/books/v1/volumes?q=${this.state.searchField}`,
+      `https://www.googleapis.com/books/v1/volumes?q=${
+        this.state.searchField
+      }&startIndex=${startIndex}&maxResults=${RESULTS_NUMBER}`,
       {
         method: "GET",
         dataType: "json"
@@ -39,14 +44,19 @@ class Books extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    this.fetchBooks();
+    this.handlePageChange(1);
   };
 
   handlePagination = pageNumber => {
-    const RESULTS_NUMBER = 10;
     const startIndex = pageNumber * RESULTS_NUMBER - 1;
+    this.fetchBooks(startIndex);
+  };
 
-    this.fetchBooks();
+  handlePageChange = pageNumber => {
+    this.handlePagination(pageNumber);
+    this.setState({
+      activePage: pageNumber
+    });
   };
 
   render() {
@@ -61,7 +71,11 @@ class Books extends Component {
           <BookList books={this.state.books.items} />
         )}
 
-        <BookPagination handlePagination={this.handlePagination} />
+        <BookPagination
+          activePage={this.state.activePage}
+          handlePageChange={this.handlePageChange}
+          handlePagination={this.handlePagination}
+        />
       </div>
     );
   }
