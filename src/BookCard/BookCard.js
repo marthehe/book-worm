@@ -5,12 +5,9 @@ import BookModal from "../BookModal/";
 import ReactModal from "react-modal";
 
 class BookCard extends Component {
-  constructor() {
-    super();
-    this.state = {
-      showModal: false
-    };
-  }
+  state = {
+    showModal: false
+  };
 
   handleOpenModal = () => {
     this.setState({ showModal: true });
@@ -28,7 +25,7 @@ class BookCard extends Component {
           src={this.props.image}
           alt=""
         />
-        <div className="book-list__card-info card-body d-flex flex-column">
+        <div className="book-list__card-info card-body">
           <h2 className="book-list__card-title card-title">
             {this.props.title}
           </h2>
@@ -37,13 +34,12 @@ class BookCard extends Component {
               className="book-list__card-subtitle card-text"
               data-test="book-subtitle"
             >
-              Author:
-              {this.props.authors.join(", ")}
+              Author: {this.props.authors.join(", ")}
             </p>
-          )}{" "}
+          )}
           <button
             data-test="card-button"
-            className="book-list__card-button btn btn-primary mt-auto"
+            className="book-list__card-button btn btn-primary"
             onClick={this.handleOpenModal}
           >
             More Info
@@ -52,6 +48,7 @@ class BookCard extends Component {
             isOpen={this.state.showModal}
             contentLabel={this.props.title}
             overlayClassName="book-overlay"
+            className="book-overlay__content"
           >
             <BookModal
               image={this.props.image}
