@@ -1,4 +1,7 @@
 # Book-Worm App
+
+[book-worm.netlify.com](https://book-worm.netlify.com) - latest build deployed using Netlify
+
 An apllication created with *create-react-app* and Google's Books API that allows you to:
 - Type in a query and display a list of books matching it.
 - Check each book's information (title, the book's author and picture of the book).
