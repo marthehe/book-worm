@@ -1,15 +1,60 @@
-.book-page {
-  &__image {
-    width: 100%;
+.book-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 2;
+
+  &__content {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    top: 10px;
+    bottom: 10px;
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    border-radius: 4px;
+    outline: none;
+
+    @include media-breakpoint-only(md) {
+      left: 25px;
+      right: 25px;
+      top: 35px;
+      bottom: 35px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      left: 40px;
+      right: 40px;
+      top: 40px;
+      bottom: 40px;
+    }
+  }
+}
+
+.book-modal {
+  &__close-button {
+    margin-top: 20px;
   }
 
-  &__info {
-    font-size: 22px;
-    margin-bottom: 50px;
+  &__title {
+    margin-top: 20px;
+  }
+
+  &__image {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  &__subtitle {
+    margin-top: 15px;
   }
 
   &__description {
     text-align: justify;
-    font-size: 18px;
   }
 }
