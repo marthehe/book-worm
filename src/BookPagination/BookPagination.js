@@ -2,12 +2,9 @@ import React, { Component } from "react";
 import Pagination from "react-js-pagination";
 
 class BookPagination extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activePage: 1
-    };
-  }
+  state = {
+    activePage: 1
+  };
 
   handlePageChange = pageNumber => {
     this.props.handlePagination(pageNumber);
