@@ -2,9 +2,12 @@ import React, { Component } from "react";
 
 import SearchArea from "../SearchArea/";
 import BookList from "../BookList/";
+import BookListEmpty from "../BookListEmpty/";
 import BookPagination from "../BookPagination/";
 
 const RESULTS_NUMBER = 12;
+
+const BooksNotFound = "Sorry, no books found";
 
 class Books extends Component {
   state = {
@@ -66,9 +69,10 @@ class Books extends Component {
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
         />
-
-        {this.state.books.items && this.state.books.items.length > 0 && (
+        {this.state.books.items && this.state.books.items.length > 0 ? (
           <BookList books={this.state.books.items} />
+        ) : (
+          <BookListEmpty />
         )}
 
         <BookPagination
