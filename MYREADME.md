@@ -36,3 +36,10 @@ To display more information about the book I implement react-modal to create a m
 
 Testing subject is quite new to me. I went along with the udemy course React Testing with Jest and Enzyme. First I tested if my components are rendering. Then I checked initial statates and if they are updating. To check functions in copmonentDidMount I used spyOn. In production I would use mock mechanism.
 
+### Feedback: 
+
+- [ ] Set initialState on app title click
+- [ ] Fix skipped and failing tests
+- [ ] Show loader
+- [x] Provide fallback for no results
+
