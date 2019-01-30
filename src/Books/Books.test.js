@@ -45,3 +45,9 @@ describe("componentDidMount", () => {
     expect(instance.fetchBooks).toHaveBeenCalled();
   });
 });
+
+test("active page is 1", () => {
+  const wrapper = shallow(<Books />);
+  const initialPaginationState = wrapper.state("activePage");
+  expect(initialPaginationState).toBe(1);
+});

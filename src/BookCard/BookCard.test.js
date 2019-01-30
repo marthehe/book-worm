@@ -4,7 +4,7 @@ import BookCard from "./index.js";
 
 test("renders card button", () => {
   const wrapper = shallow(<BookCard />);
-  // <BookCard authors={["first-author", "second-author"]} />
+
   const cardButton = wrapper.find("[data-test='card-button']");
   expect(cardButton.length).toBe(1);
 });

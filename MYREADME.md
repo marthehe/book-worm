@@ -39,7 +39,7 @@ Testing subject is quite new to me. I went along with the udemy course React Tes
 ### Feedback: 
 
 - [ ] Set initialState on app title click
-- [ ] Fix skipped and failing tests
+- [x] Fix failing test
 - [ ] Show loader
 - [x] Provide fallback for no results
 
