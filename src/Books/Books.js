@@ -11,13 +11,11 @@ const RESULTS_NUMBER = 12;
 const EMPTY_SEARCH_STRING = "''";
 class Books extends Component {
   state = {
-    books: [],
-    searchField: EMPTY_SEARCH_STRING,
-    activePage: 1,
     isLoading: false
   };
 
   componentDidMount() {
+    this.setInitialState();
     this.fetchBooks();
   }
 
@@ -38,10 +36,19 @@ class Books extends Component {
 
   setInitialState = () => {
     this.setState({
-      searchField: "''",
-      isLoading: true
+      books: [],
+      searchField: EMPTY_SEARCH_STRING,
+      activePage: 1
     });
 
+    this.fetchBooks();
+  };
+
+  setDefaultState = () => {
+    this.setInitialState();
+    this.setState({
+      isLoading: true
+    });
     this.fetchBooks();
   };
 
@@ -85,7 +92,7 @@ class Books extends Component {
 
     return (
       <div className="container">
-        <Header setInitialState={this.setInitialState} />
+        <Header setDefaultState={this.setDefaultState} />
         <SearchArea
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
