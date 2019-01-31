@@ -4,7 +4,7 @@ const Header = props => (
   <header className="header">
     <div className="container">
       <i className="header__icon fas fa-book fa-2x" />
-      <h1 className="header__main-heading" onClick={props.setInitialState}>
+      <h1 className="header__home-button" onClick={props.setInitialState}>
         Book Worm
       </h1>
     </div>

@@ -37,7 +37,11 @@ class Books extends Component {
   };
 
   setInitialState = () => {
-    this.setState({ searchField: EMPTY_SEARCH_STRING });
+    this.setState({
+      searchField: "''",
+      isLoading: true
+    });
+
     this.fetchBooks();
   };
 
