@@ -40,6 +40,9 @@ Testing subject is quite new to me. I went along with the udemy course React Tes
 
 - [ ] Set initialState on app title click
 - [x] Fix failing test
-- [ ] Show loader
+- [ ] Fix skipped tests
+- [x] Show loader while fetching API
 - [x] Provide fallback for no results
+- [ ] Extract low-level logic to helper functions
+- [ ] test 'unhappy path'
 

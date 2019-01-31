@@ -1,23 +1,27 @@
 import React, { Component } from "react";
 
 import SearchArea from "../SearchArea/";
+import LoadingSpinner from "../LoadingSpinner/";
 import BookList from "../BookList/";
 import BookListEmpty from "../BookListEmpty/";
 import BookPagination from "../BookPagination/";
 
 const RESULTS_NUMBER = 12;
 
-const BooksNotFound = "Sorry, no books found";
-
 class Books extends Component {
   state = {
     books: [],
     searchField: "''",
-    activePage: 1
+    activePage: 1,
+    isLoading: false
   };
 
   componentDidMount() {
     this.fetchBooks();
+    // .then(result => this.setState({
+    //   isLoading: false,
+    //   data: [...result.data],
+    // }));
   }
 
   fetchBooks = (startIndex = 0) => {
@@ -31,11 +35,15 @@ class Books extends Component {
       }
     )
       .then(r => r.json())
+
       .then(books => this.updateBooksState(books));
   };
 
   updateBooksState = books => {
-    this.setState({ books });
+    this.setState({
+      books,
+      isLoading: false
+    });
   };
 
   handleSearch = e => {
@@ -46,7 +54,9 @@ class Books extends Component {
 
   handleSubmit = e => {
     e.preventDefault();
-
+    this.setState({
+      isLoading: true
+    });
     this.handlePageChange(1);
   };
 
@@ -63,12 +73,17 @@ class Books extends Component {
   };
 
   render() {
+    if (this.state.isLoading === true) {
+      return <LoadingSpinner />;
+    }
+
     return (
       <div className="container">
         <SearchArea
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
         />
+
         {this.state.books.items && this.state.books.items.length > 0 ? (
           <BookList books={this.state.books.items} />
         ) : (
