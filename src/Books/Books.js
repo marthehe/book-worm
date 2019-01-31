@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import Header from "../Header/";
 import SearchArea from "../SearchArea/";
 import LoadingSpinner from "../LoadingSpinner/";
 import BookList from "../BookList/";
@@ -7,21 +8,17 @@ import BookListEmpty from "../BookListEmpty/";
 import BookPagination from "../BookPagination/";
 
 const RESULTS_NUMBER = 12;
-
+const EMPTY_SEARCH_STRING = "''";
 class Books extends Component {
   state = {
     books: [],
-    searchField: "''",
+    searchField: EMPTY_SEARCH_STRING,
     activePage: 1,
     isLoading: false
   };
 
   componentDidMount() {
     this.fetchBooks();
-    // .then(result => this.setState({
-    //   isLoading: false,
-    //   data: [...result.data],
-    // }));
   }
 
   fetchBooks = (startIndex = 0) => {
@@ -37,6 +34,11 @@ class Books extends Component {
       .then(r => r.json())
 
       .then(books => this.updateBooksState(books));
+  };
+
+  setInitialState = () => {
+    this.setState({ searchField: EMPTY_SEARCH_STRING });
+    this.fetchBooks();
   };
 
   updateBooksState = books => {
@@ -79,6 +81,7 @@ class Books extends Component {
 
     return (
       <div className="container">
+        <Header setInitialState={this.setInitialState} />
         <SearchArea
           handleSearch={this.handleSearch}
           handleSubmit={this.handleSubmit}
