@@ -46,8 +46,10 @@ class Books extends Component {
 
   setDefaultState = () => {
     this.setInitialState();
-    this.setState({ isLoading: true });
-    this.fetchBooks();
+    this.setState({
+      isLoading: true
+    });
+    this.handlePageChange(1);
   };
 
   updateBooksState = books => {
