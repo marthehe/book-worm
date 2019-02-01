@@ -10,9 +10,14 @@ import BookPagination from "../BookPagination/";
 const RESULTS_NUMBER = 12;
 const EMPTY_SEARCH_STRING = "''";
 class Books extends Component {
-  state = {
+  initialState = {
+    books: [],
+    searchField: EMPTY_SEARCH_STRING,
+    activePage: 1,
     isLoading: false
   };
+
+  state = this.initialState;
 
   componentDidMount() {
     this.setInitialState();
@@ -20,6 +25,7 @@ class Books extends Component {
   }
 
   fetchBooks = (startIndex = 0) => {
+    console.log(this.state.searchField);
     fetch(
       `https://www.googleapis.com/books/v1/volumes?q=${
         this.state.searchField
@@ -35,20 +41,12 @@ class Books extends Component {
   };
 
   setInitialState = () => {
-    this.setState({
-      books: [],
-      searchField: EMPTY_SEARCH_STRING,
-      activePage: 1
-    });
-
-    this.fetchBooks();
+    this.setState(this.initialState);
   };
 
   setDefaultState = () => {
     this.setInitialState();
-    this.setState({
-      isLoading: true
-    });
+    this.setState({ isLoading: true });
     this.fetchBooks();
   };
 
@@ -98,7 +96,9 @@ class Books extends Component {
           handleSubmit={this.handleSubmit}
         />
 
-        {this.state.books.items && this.state.books.items.length > 0 ? (
+        {this.state.books &&
+        this.state.books.items &&
+        this.state.books.items.length > 0 ? (
           <BookList books={this.state.books.items} />
         ) : (
           <BookListEmpty />
