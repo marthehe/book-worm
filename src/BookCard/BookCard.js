@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
+import BookSubtitle from "../BookSubtitle/";
 import BookModal from "../BookModal/";
 
 import ReactModal from "react-modal";
@@ -29,14 +30,7 @@ class BookCard extends Component {
           <h2 className="book-list__card-title card-title">
             {this.props.title}
           </h2>
-          {Array.isArray(this.props.authors) && (
-            <p
-              className="book-list__card-subtitle card-text"
-              data-test="book-subtitle"
-            >
-              Author: {this.props.authors.join(", ")}
-            </p>
-          )}
+          <BookSubtitle authors={this.props.authors} />
           <button
             data-test="card-button"
             className="book-list__card-button btn btn-primary"
