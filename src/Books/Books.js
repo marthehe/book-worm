@@ -8,7 +8,7 @@ import BookListEmpty from "../BookListEmpty/";
 import BookPagination from "../BookPagination/";
 
 const RESULTS_NUMBER = 12;
-const EMPTY_SEARCH_STRING = "'test'";
+const EMPTY_SEARCH_STRING = "''";
 class Books extends Component {
   initialState = {
     books: [],
