@@ -3,7 +3,6 @@ import React from "react";
 const joinAuthors = authors => authors.join(", ");
 
 const BookSubtitle = props => {
-  console.log(props);
   if (Array.isArray(props.authors)) {
     return (
       <p
