@@ -2,12 +2,10 @@ import React from "react";
 
 const Header = props => (
   <header className="header">
-    <div className="container">
-      <i className="header__icon fas fa-book fa-2x" />
-      <h1 className="header__home-button" onClick={props.setDefaultState}>
-        Book Worm
-      </h1>
-    </div>
+    <i className="header__icon fas fa-book fa-2x" />
+    <h1 className="header__main-heading" onClick={props.setDefaultState}>
+      Book Worm
+    </h1>
   </header>
 );
 

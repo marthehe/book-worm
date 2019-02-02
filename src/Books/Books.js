@@ -25,7 +25,6 @@ class Books extends Component {
   }
 
   fetchBooks = (startIndex = 0) => {
-    console.log(this.state.searchField);
     fetch(
       `https://www.googleapis.com/books/v1/volumes?q=${
         this.state.searchField
@@ -91,26 +90,28 @@ class Books extends Component {
     }
 
     return (
-      <div className="container">
+      <div>
         <Header setDefaultState={this.setDefaultState} />
-        <SearchArea
-          handleSearch={this.handleSearch}
-          handleSubmit={this.handleSubmit}
-        />
+        <div className="container">
+          <SearchArea
+            handleSearch={this.handleSearch}
+            handleSubmit={this.handleSubmit}
+          />
 
-        {this.state.books &&
-        this.state.books.items &&
-        this.state.books.items.length > 0 ? (
-          <BookList books={this.state.books.items} />
-        ) : (
-          <BookListEmpty />
-        )}
+          {this.state.books &&
+          this.state.books.items &&
+          this.state.books.items.length > 0 ? (
+            <BookList books={this.state.books.items} />
+          ) : (
+            <BookListEmpty />
+          )}
 
-        <BookPagination
-          activePage={this.state.activePage}
-          handlePageChange={this.handlePageChange}
-          handlePagination={this.handlePagination}
-        />
+          <BookPagination
+            activePage={this.state.activePage}
+            handlePageChange={this.handlePageChange}
+            handlePagination={this.handlePagination}
+          />
+        </div>
       </div>
     );
   }
