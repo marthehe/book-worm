@@ -1,7 +1,6 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
 import Books from "./index.js";
-import SearchArea from "./index.js";
 
 describe("initialState", () => {
   test("books list is empty", () => {
